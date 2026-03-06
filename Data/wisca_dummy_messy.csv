@@ -1,0 +1,201 @@
+BloodCultureDate,Patient ID,Hospital,Age at onset,Sex ,GA_at_birth,Birth wt,Pathogen,InfType,Amp,Gent,Pip/Tazo,Amk,Mero,Vanc
+18/09/2021,P0010,Chris Hani Baragwanath,1,M,32.6,"1,919",Group B Streptococcus,EONS,S,R,S,Resistant,I,S
+19/05/2021,P0126,Groote Schuur Hospital,6d,2,37.0,2190 g,Coagulase-negative Staphylococcus,HAI,R,I,I,Susceptible,S,S
+19/07/2022,P0016,GSH,15,2,33.7,1130 g,Group B Streptococcus,HAI,R,S,Resistant,S,R,S
+19/11/2021,P0065,Chris Hani Baragwanath,0d,M,32.3,1.83 kg,Coagulase-negative Staphylococcus,EONS,Resistant,S,Susceptible,S,I,S
+2022-10-24,P0114,Tygerberg Hospital,2,female,32.4,1839,Acinetobacter baumannii,EONS,I,S,S,S,Susceptible,S
+11/30/2022,P0124,Chris Hani Baragwanath,52d,2,34.2,2033 g,Group B Streptococcus,HAI,Susceptible,R,R,i,S,S
+2021-12-20,P0114,Inkosi Albert Luthuli,96d,2,31.9,2222,Group B Streptococcus,HAI,R,R,S,S,S,S
+06/21/2022,P0009,Groote Schuur Hospital,60,MALE,26.5,0.90 kg,Klebsiella pneumoniae,HAI,Resistant,S,S,S,S,I
+05/12/2021,P0074,Groote Schuur Hospital,51,female,25.4,500 g,Klebsiella pneumoniae,HAI,Resistant,I,S,S,I,S
+06/03/2022,P0001,Inkosi Luthuli,95,F,29.5,1622 g,Staphylococcus aureus,HAI,R,S,I,R,Susceptible,I
+02/22/2022,P0041,Inkosi Luthuli,41,1,29.1,1406,Acinetobacter baumannii,HAI,R,S,S,R,S,S
+05/28/2021,P0116,Tygerberg Hospital,69,MALE,32.7,1994,Klebsiella pneumoniae,HAI,R,I,I,R,Susceptible,S
+2022-06-22,P0017,Inkosi Luthuli,63,M,31.5,1867,Klebsiella pneumoniae,HAI,R,R,R,S,R,I
+10/21/2022,P0101,Chris Hani Baragwanath,63,male,33.7,1956 g,Group B Streptococcus,HAI,I,S,S,S,S,Susceptible
+09/19/2021,P0140,Universitas,1,MALE,31.2,1411,Coagulase-negative Staphylococcus,EONS,R,S,S,S,S,S
+2022-05-12,P0055,GSH,67,M,34.0,1917 g,Escherichia coli,HAI,R,R,I,Susceptible,S,I
+11/20/2021,P0089,Tygerberg Hosp,69d,2,33.2,1789 g,Klebsiella pneumoniae,HAI,R,I,I,R,R,S
+2021-03-24,P0108,IALCH,11,male,35.9,2008 g,Staphylococcus aureus,HAI,S,S,R,S,Susceptible,Susceptible
+05/04/2022,P0123,Chris Hani Baragwanath,80 wks,FEMALE,28.8,1371,Staphylococcus aureus,HAI,S,i,Resistant,Resistant,S,S
+2022-07-12,P0063,GSH,57,1,25.3,854,Group B Streptococcus,HAI,S,Susceptible,S,I,S,S
+02/25/2021,P0034,Groote Schuur Hospital,1,1,29.8,1.45 kg,Klebsiella pneumoniae,EONS,I,S,Susceptible,Susceptible,S,Susceptible
+11/17/2021,P0101,Tygerberg Hospital,68,MALE,34.5,1618,Escherichia coli,HAI,Resistant,R,S,S,S,S
+18/04/2021,P0055,Universitas Hospital,0,MALE,29.7,"1,324",Coagulase-negative Staphylococcus,EONS,S,Susceptible,S,Resistant,S,S
+11/06/2022,P0078,Tygerberg Hospital,59,1,30.3,1095,Pseudomonas aeruginosa,HAI,R,S,S,S,i,Susceptible
+09/14/2022,P0014,Groote Schuur,0,male,27.5,790 g,Escherichia coli,EONS,R,Susceptible,S,S,S,S
+10/01/2022,P0127,Chris Hani Baragwanath,34,MALE,28.6,1774,Coagulase-negative Staphylococcus,HAI,R,R,Resistant,S,Susceptible,S
+2021-08-18,P0093,Groote Schuur Hospital,42,FEMALE,31.3,1260,Staphylococcus aureus,HAI,R,R,I,S,S,I
+2021-03-15,P0087,Groote Schuur Hospital,2 wks,female,25.9,1138 g,Escherichia coli,EONS,R,R,R,S,I,S
+01/04/2021,P0031,Tygerberg Hospital,0,1,31.5,1051,Staphylococcus aureus,EONS,R,R,S,R,Susceptible,Susceptible
+03/23/2021,P0090,Tygerberg Hosp,1,female,32.1,1676,Group B Streptococcus,EONS,S,R,R,S,S,S
+02/16/2021,P0066,Groote Schuur Hospital,17,1,31.3,1.98 kg,Escherichia coli,HAI,R,S,R,I,Susceptible,Susceptible
+2022-06-06,P0032,Inkosi Albert Luthuli,0,2,32.4,2.02 kg,Escherichia coli,EONS,R,Resistant,I,Susceptible,S,S
+09/23/2021,P0058,tygerberg hospital,0,M,29.7,1164 g,Group B Streptococcus,EONS,R,S,S,Susceptible,S,Susceptible
+07/05/2022,P0037,Groote Schuur Hospital,88,M,36.5,2518,Klebsiella pneumoniae,HAI,R,I,S,Susceptible,S,S
+11/24/2021,P0028,Groote Schuur Hospital,84,male,34.8,1.91 kg,Pseudomonas aeruginosa,HAI,Resistant,Susceptible,S,S,Susceptible,Susceptible
+2021-01-11,P0019,Chris Hani Baragwanath,0 wks,male,29.2,1025 g,Staphylococcus aureus,EONS,R,i,S,S,I,S
+2021-12-22,P0094,Tygerberg Hosp,12,male,31.7,"1,241",Klebsiella pneumoniae,HAI,R,S,I,S,S,S
+04/12/2021,P0078,GSH,0,FEMALE,29.7,721 g,Klebsiella pneumoniae,EONS,Susceptible,Susceptible,S,S,S,S
+05/03/2022,P0095,Groote Schuur Hospital,37,FEMALE,36.5,2404,Enterococcus faecalis,HAI,R,S,S,S,S,S
+02/10/2022,P0140,TYGERBERG,79 wks,female,31.6,1.92 kg,Klebsiella pneumoniae,HAI,Resistant,S,R,Susceptible,Susceptible,S
+2021-11-05,P0075,Chris Hani Baragwanath,1 wks,MALE,27.8,1.78 kg,Staphylococcus aureus,EONS,R,R,Susceptible,Susceptible,S,Susceptible
+2021-12-22,P0138,tygerberg hospital,1,2,35.0,"1,937",Klebsiella pneumoniae,EONS,Resistant,R,S,S,S,Susceptible
+2021-03-26,P0016,Groote Schuur Hospital,74,1,34.1,"1,837",Escherichia coli,HAI,R,S,S,Susceptible,S,Susceptible
+29/09/2021,P0019,Tygerberg Hospital,12,1,31.3,"1,420",Staphylococcus aureus,HAI,S,R,S,Susceptible,S,S
+2022-02-10,P0119,Inkosi Luthuli,32,M,30.2,1.59 kg,Staphylococcus aureus,HAI,R,S,S,R,I,S
+11/19/2021,P0072,Groote Schuur Hospital,15,MALE,30.5,1575,Enterococcus faecalis,HAI,R,R,S,S,Resistant,Susceptible
+2021-05-23,P0089,Groote Schuur Hospital,8,female,31.8,1149,Coagulase-negative Staphylococcus,HAI,R,R,S,I,S,Susceptible
+09/06/2022,P0140,Chris Hani Baragwanath,0,male,28.3,1423,Coagulase-negative Staphylococcus,EONS,Resistant,S,S,S,S,Susceptible
+30/10/2022,P0136,Chris Hani Baragwanath,59,2,38.3,2656,Escherichia coli,HAI,Resistant,Susceptible,S,Susceptible,i,S
+03/23/2022,P0029,Baragwanath,2 wks,male,31.7,1753,Coagulase-negative Staphylococcus,EONS,R,Susceptible,S,Susceptible,Susceptible,S
+2022-06-27,P0034,Tygerberg Hospital,1,F,39.7,2.54 kg,Escherichia coli,EONS,R,S,Susceptible,Resistant,S,S
+2021-09-02,P0097,Univ Hospital,1 wks,M,30.4,837,Acinetobacter baumannii,EONS,Resistant,S,S,S,S,S
+03/01/2021,P0045,Groote Schuur Hospital,44,2,31.3,1651,Coagulase-negative Staphylococcus,HAI,R,Susceptible,S,S,Susceptible,S
+28/03/2022,P0134,Groote Schuur,76d,MALE,31.0,1543,Group B Streptococcus,HAI,R,S,S,R,Susceptible,S
+03/09/2021,P0005,Groote Schuur,39 wks,M,35.2,1921,Coagulase-negative Staphylococcus,HAI,Resistant,S,Resistant,I,I,R
+10/04/2021,P0072,Tygerberg Hospital,9,M,35.5,2144,Staphylococcus aureus,HAI,R,Susceptible,R,S,S,S
+2022-07-21,P0089,tygerberg hospital,1 wks,male,33.1,"1,753",Klebsiella pneumoniae,EONS,R,i,Susceptible,R,S,I
+2022-02-07,P0089,Tygerberg Hospital,1d,1,36.0,2205,Coagulase-negative Staphylococcus,EONS,S,S,Susceptible,Susceptible,S,Susceptible
+08/08/2022,P0051,Tygerberg Hospital,68,MALE,36.1,2.15 kg,Staphylococcus aureus,HAI,R,Resistant,S,S,S,S
+07/05/2021,P0109,Tygerberg Hospital,1,female,35.5,1956 g,Acinetobacter baumannii,EONS,Resistant,I,S,I,S,S
+12/04/2021,P0035,Groote Schuur Hospital,2 wks,M,30.5,"1,132",Escherichia coli,EONS,R,Susceptible,S,Susceptible,Susceptible,S
+19/11/2021,P0105,CHB,2,F,28.0,787,Acinetobacter baumannii,EONS,S,S,S,R,S,S
+2022-06-23,P0016,CHB,1,1,26.3,1135 g,Klebsiella pneumoniae,EONS,R,S,S,S,S,S
+31/07/2022,P0089,IALCH,1,male,26.9,1075,Escherichia coli,EONS,R,R,Susceptible,R,S,S
+06/04/2022,P0135,TYGERBERG,0,male,30.9,1.71 kg,Klebsiella pneumoniae,EONS,R,S,R,Susceptible,S,Susceptible
+30/06/2021,P0086,Groote Schuur Hospital,96,FEMALE,27.5,1313 g,Staphylococcus aureus,HAI,Susceptible,I,S,S,S,S
+07/01/2022,P0012,Universitas,2 wks,1,31.6,1607,Klebsiella pneumoniae,EONS,R,R,S,Susceptible,S,S
+11/15/2022,P0113,Groote Schuur Hospital,0,1,37.2,2994 g,Coagulase-negative Staphylococcus,EONS,R,S,Susceptible,S,S,Susceptible
+03/09/2021,P0013,Universitas Hospital,49,1,31.5,"1,464",Klebsiella pneumoniae,HAI,Resistant,R,S,R,S,Susceptible
+2021-03-27,P0063,Tygerberg Hosp,0d,female,25.4,932,Staphylococcus aureus,EONS,R,S,R,S,S,S
+07/07/2022,P0080,Tygerberg Hospital,2,MALE,34.9,1870,Klebsiella pneumoniae,EONS,I,S,S,S,R,Susceptible
+02/07/2021,P0109,Baragwanath,39,male,31.2,1478,Acinetobacter baumannii,HAI,R,Susceptible,S,I,Susceptible,Resistant
+28/10/2021,P0043,Groote Schuur Hospital,2d,male,30.3,1134 g,Klebsiella pneumoniae,EONS,S,Resistant,R,S,S,Susceptible
+16/11/2021,P0058,Tygerberg Hosp,1d,M,31.1,1830 g,Staphylococcus aureus,EONS,R,I,S,Susceptible,S,S
+2021-09-17,P0098,Tygerberg Hosp,38 wks,MALE,27.4,0.96 kg,Escherichia coli,HAI,R,S,R,Susceptible,S,S
+2022-11-30,P0051,Tygerberg Hospital,0,1,32.1,1941,Klebsiella pneumoniae,EONS,R,S,I,I,S,S
+21/12/2021,P0046,Chris Hani Baragwanath,1,MALE,34.6,2384,Escherichia coli,EONS,Resistant,S,I,S,R,i
+12/10/2021,P0129,Groote Schuur Hospital,0 wks,female,28.4,"1,261",Staphylococcus aureus,EONS,S,S,R,Susceptible,R,I
+2021-02-05,P0024,Groote Schuur Hospital,0,female,34.0,1.75 kg,Klebsiella pneumoniae,EONS,S,R,S,Susceptible,Susceptible,S
+2022-09-23,P0004,Inkosi Albert Luthuli,50d,male,34.1,2060,Escherichia coli,HAI,S,I,S,S,S,Susceptible
+11/10/2021,P0030,IALCH,2d,2,30.0,"1,658",Coagulase-negative Staphylococcus,EONS,S,S,S,I,Susceptible,S
+2022-03-09,P0017,tygerberg hospital,0,MALE,35.5,2347 g,Klebsiella pneumoniae,EONS,Susceptible,S,I,S,Susceptible,S
+2021-09-24,P0085,Inkosi Albert Luthuli,2 wks,MALE,27.9,743,Acinetobacter baumannii,EONS,R,S,S,R,Susceptible,Susceptible
+02/08/2022,P0083,Inkosi Luthuli,1,2,33.5,2407,Escherichia coli,EONS,Resistant,Susceptible,S,S,S,S
+10/19/2022,P0113,Inkosi Albert Luthuli,1,male,31.5,1332,Coagulase-negative Staphylococcus,EONS,Resistant,S,S,I,Susceptible,Resistant
+2021-08-06,P0015,Tygerberg Hospital,0d,M,31.7,1181,Escherichia coli,EONS,I,R,S,Susceptible,S,Susceptible
+2021-10-18,P0052,TYGERBERG,1,F,33.4,2083 g,Pseudomonas aeruginosa,EONS,R,S,S,S,S,Susceptible
+05/29/2022,P0080,Tygerberg Hospital,95,FEMALE,32.7,1663,Staphylococcus aureus,HAI,R,S,Susceptible,I,Resistant,S
+03/23/2021,P0018,Groote Schuur Hospital,65,FEMALE,25.1,910,Escherichia coli,HAI,Resistant,S,R,S,S,Susceptible
+09/05/2021,P0054,Groote Schuur Hospital,40,male,27.5,1.24 kg,Escherichia coli,HAI,R,R,Resistant,Susceptible,R,Susceptible
+20/02/2022,P0111,IALCH,62,M,28.2,1.85 kg,Escherichia coli,HAI,Resistant,S,Susceptible,Susceptible,S,I
+03/26/2022,P0018,Chris Hani Baragwanath,1d,MALE,31.2,1.66 kg,Klebsiella pneumoniae,EONS,Susceptible,S,S,S,S,Susceptible
+07/07/2021,P0082,Tygerberg Hospital,47,1,34.7,2188,Klebsiella pneumoniae,HAI,R,S,I,R,I,I
+2022-12-12,P0042,Baragwanath,2,1,35.7,2.02 kg,Coagulase-negative Staphylococcus,EONS,S,S,R,S,S,S
+07/02/2022,P0091,Inkosi Luthuli,26 wks,female,34.4,1741,Staphylococcus aureus,HAI,R,R,S,Susceptible,I,Susceptible
+2022-02-21,P0013,Tygerberg Hospital,9,1,32.6,2074,Group B Streptococcus,HAI,R,Susceptible,R,S,S,S
+22/05/2022,P0031,Groote Schuur,2,2,28.6,"1,498",Coagulase-negative Staphylococcus,EONS,R,I,S,S,S,S
+16/12/2022,P0129,Chris Hani Baragwanath,1,female,36.1,2743,Klebsiella pneumoniae,EONS,R,S,S,S,S,S
+2022-11-11,P0102,Groote Schuur,72,FEMALE,32.4,1478 g,Coagulase-negative Staphylococcus,HAI,R,R,S,S,S,S
+06/02/2021,P0125,Groote Schuur,24d,2,27.7,1.31 kg,Coagulase-negative Staphylococcus,HAI,I,S,S,S,S,S
+2022-06-03,P0023,GSH,1,2,29.8,"1,706",Coagulase-negative Staphylococcus,EONS,S,S,S,i,Susceptible,S
+22/01/2021,P0097,IALCH,1,M,36.3,1.63 kg,Escherichia coli,EONS,S,S,Resistant,S,Susceptible,S
+16/11/2021,P0067,Tygerberg Hospital,19,female,37.0,"1,854",Escherichia coli,HAI,Resistant,Susceptible,S,Susceptible,S,R
+10/10/2022,P0068,Chris Hani Baragwanath,15 wks,2,28.7,1476,Escherichia coli,HAI,R,R,Susceptible,Susceptible,S,Susceptible
+09/30/2022,P0096,Chris Hani Baragwanath,2,2,39.4,2.67 kg,Enterococcus faecalis,EONS,R,R,R,S,I,S
+12/19/2022,P0100,Tygerberg Hospital,22 wks,1,35.2,1860,Klebsiella pneumoniae,HAI,S,R,S,S,S,S
+07/06/2021,P0083,Groote Schuur,51d,male,34.0,2259,Escherichia coli,HAI,R,R,S,Susceptible,S,Susceptible
+11/15/2021,P0063,Groote Schuur,22d,2,27.9,0.90 kg,Klebsiella pneumoniae,HAI,R,S,Susceptible,R,S,Susceptible
+23/12/2022,P0078,Groote Schuur,71,FEMALE,39.5,2.10 kg,Escherichia coli,HAI,Susceptible,Susceptible,R,R,I,S
+06/07/2022,P0108,Inkosi Albert Luthuli,0d,2,31.8,1706 g,Klebsiella pneumoniae,EONS,Resistant,Susceptible,S,R,Susceptible,Susceptible
+07/06/2021,P0049,Tygerberg Hospital,12,2,29.4,1434,Klebsiella pneumoniae,HAI,R,S,R,Resistant,S,S
+01/20/2021,P0118,Chris Hani Baragwanath,0d,male,30.5,"1,851",Enterococcus faecalis,EONS,R,S,I,I,Susceptible,S
+2021-04-20,P0116,Tygerberg Hospital,1 wks,2,31.6,1730 g,Coagulase-negative Staphylococcus,EONS,R,S,Susceptible,S,S,S
+21/02/2022,P0012,Groote Schuur Hospital,24d,F,28.5,1572,Klebsiella pneumoniae,HAI,S,S,I,S,I,Susceptible
+2022-06-20,P0096,Tygerberg Hosp,46 wks,1,34.1,"1,613",Enterococcus faecalis,HAI,R,S,S,R,I,S
+2021-10-19,P0074,CHB,0,F,31.6,1954 g,Escherichia coli,EONS,Resistant,S,S,I,S,I
+11/03/2021,P0102,Chris Hani Baragwanath,84 wks,F,25.9,602,Acinetobacter baumannii,HAI,R,S,i,Susceptible,S,S
+30/12/2021,P0091,Tygerberg Hospital,2,1,28.9,1688 g,Pseudomonas aeruginosa,EONS,S,I,S,Susceptible,S,S
+11/12/2021,P0072,Baragwanath,1,M,28.0,1151 g,Enterococcus faecalis,EONS,R,I,R,S,S,S
+07/01/2022,P0137,TYGERBERG,70 wks,F,29.2,1361,Klebsiella pneumoniae,HAI,R,R,S,Susceptible,S,S
+04/04/2021,P0073,Universitas Hospital,78,FEMALE,30.1,1327,Klebsiella pneumoniae,HAI,R,i,S,S,S,Susceptible
+27/06/2021,P0110,Inkosi Albert Luthuli,2,M,32.7,1739 g,Klebsiella pneumoniae,EONS,I,S,S,S,S,S
+12/15/2022,P0031,Universitas Hospital,55d,female,31.0,1468,Escherichia coli,HAI,R,S,S,S,Susceptible,S
+02/22/2022,P0124,Inkosi Albert Luthuli,91d,M,31.3,1105,Acinetobacter baumannii,HAI,Resistant,S,S,S,S,Susceptible
+02/02/2021,P0014,Chris Hani Baragwanath,2,1,29.4,"1,098",Acinetobacter baumannii,EONS,Resistant,R,S,S,S,I
+01/13/2022,P0005,tygerberg hospital,71,2,34.4,1769,Escherichia coli,HAI,R,S,Resistant,S,S,S
+2021-04-10,P0095,Tygerberg Hospital,1,female,31.0,1673,Escherichia coli,EONS,R,S,R,S,S,S
+12/15/2021,P0029,Chris Hani Baragwanath,1d,1,39.0,2724,Coagulase-negative Staphylococcus,EONS,R,Susceptible,S,S,R,Susceptible
+11/02/2022,P0040,Inkosi Luthuli,7,1,28.9,1220,Acinetobacter baumannii,HAI,Resistant,Susceptible,S,S,S,S
+24/07/2021,P0092,Chris Hani Baragwanath,89 wks,1,31.9,1822,Klebsiella pneumoniae,HAI,R,S,Susceptible,S,S,R
+08/24/2022,P0104,Groote Schuur Hospital,2,FEMALE,36.6,"2,410",Escherichia coli,EONS,Resistant,Resistant,R,Susceptible,Susceptible,R
+06/08/2021,P0010,Chris Hani Baragwanath,56 wks,MALE,28.0,"1,112",Escherichia coli,HAI,R,S,Resistant,I,Susceptible,S
+28/07/2022,P0008,Groote Schuur Hospital,34,1,28.7,500 g,Acinetobacter baumannii,HAI,R,Susceptible,R,Susceptible,Susceptible,S
+11/07/2022,P0033,GSH,2,1,28.1,1244,Enterococcus faecalis,EONS,R,R,S,S,Susceptible,S
+2021-11-15,P0004,CHB,1,MALE,31.5,2149,Coagulase-negative Staphylococcus,EONS,R,S,S,Susceptible,S,S
+2022-01-05,P0010,Chris Hani Baragwanath,17,male,31.0,1391,Staphylococcus aureus,HAI,R,S,S,R,S,S
+2022-05-07,P0121,Universitas,1d,male,32.7,2043,Klebsiella pneumoniae,EONS,I,S,R,S,Resistant,S
+24/07/2022,P0117,Groote Schuur Hospital,1 wks,MALE,35.9,"1,920",Coagulase-negative Staphylococcus,EONS,S,Resistant,R,Susceptible,S,S
+08/06/2021,P0075,CHB,2 wks,F,28.0,990 g,Group B Streptococcus,EONS,R,I,R,S,S,S
+2022-03-02,P0031,Chris Hani Baragwanath,2,male,30.7,2283,Coagulase-negative Staphylococcus,EONS,R,Susceptible,S,I,S,Susceptible
+11/11/2021,P0138,GSH,57,2,33.4,1842,Staphylococcus aureus,HAI,Resistant,S,R,S,S,R
+2022-07-10,P0003,Groote Schuur Hospital,40,M,24.0,500 g,Klebsiella pneumoniae,HAI,S,S,S,S,S,S
+11/07/2021,P0116,Chris Hani Baragwanath,1 wks,F,30.2,1885 g,Coagulase-negative Staphylococcus,EONS,S,Susceptible,S,Susceptible,I,S
+04/07/2022,P0134,Chris Hani Baragwanath,23,MALE,30.4,"1,617",Group B Streptococcus,HAI,R,S,R,I,S,I
+2021-05-01,P0085,Inkosi Albert Luthuli,13,2,29.9,1585 g,Acinetobacter baumannii,HAI,R,Susceptible,S,S,S,Susceptible
+2021-07-26,P0043,Chris Hani Baragwanath,65d,female,33.0,1157,Coagulase-negative Staphylococcus,HAI,S,Resistant,S,S,S,S
+2022-05-21,P0047,Tygerberg Hospital,57 wks,MALE,35.8,2036 g,Group B Streptococcus,HAI,Susceptible,S,I,R,S,S
+05/01/2021,P0095,Inkosi Albert Luthuli,22,F,30.1,1496,Staphylococcus aureus,HAI,Resistant,Resistant,S,Resistant,S,S
+19/04/2021,P0087,Tygerberg Hospital,5,M,39.7,2568,Coagulase-negative Staphylococcus,HAI,Susceptible,I,R,S,R,S
+2022-02-07,P0121,Chris Hani Baragwanath,1,M,29.5,1045 g,Coagulase-negative Staphylococcus,EONS,Susceptible,S,I,Susceptible,S,S
+2022-06-08,P0046,Tygerberg Hospital,76,FEMALE,31.8,"1,560",Coagulase-negative Staphylococcus,HAI,Resistant,Susceptible,S,I,S,Resistant
+2021-10-29,P0019,Groote Schuur Hospital,98,female,32.8,"2,300",Group B Streptococcus,HAI,R,S,S,S,S,I
+2022-11-25,P0045,Baragwanath,4,1,26.7,927,Pseudomonas aeruginosa,HAI,R,S,S,I,I,S
+12/06/2021,P0130,Groote Schuur Hospital,1d,male,33.6,2117,Coagulase-negative Staphylococcus,EONS,Susceptible,R,R,S,S,Susceptible
+12/06/2021,P0064,Tygerberg Hospital,2 wks,MALE,32.1,2242,Coagulase-negative Staphylococcus,EONS,S,S,S,S,S,S
+2021-04-05,P0108,CHB,1,2,32.5,1710,Enterococcus faecalis,EONS,Resistant,S,R,S,S,Susceptible
+09/05/2021,P0019,Inkosi Albert Luthuli,17 wks,female,35.6,2083,Escherichia coli,HAI,S,S,Susceptible,Susceptible,S,S
+2022-04-09,P0084,Chris Hani Baragwanath,0,FEMALE,32.2,2135 g,Group B Streptococcus,EONS,I,S,R,R,R,Susceptible
+2022-06-29,P0104,Baragwanath,11,female,35.9,2582 g,Coagulase-negative Staphylococcus,HAI,R,S,R,Susceptible,Susceptible,Susceptible
+2022-08-18,P0056,Tygerberg Hospital,91d,M,27.3,1375,Pseudomonas aeruginosa,HAI,R,S,Resistant,i,S,S
+2022-06-26,P0135,Tygerberg Hospital,65 wks,male,31.1,1167,Klebsiella pneumoniae,HAI,R,S,i,Susceptible,S,S
+05/14/2021,P0045,Inkosi Albert Luthuli,0,2,36.4,2414,Klebsiella pneumoniae,EONS,R,I,S,S,Susceptible,S
+01/09/2021,P0010,Baragwanath,87 wks,male,31.7,1750,Acinetobacter baumannii,HAI,R,S,Susceptible,S,S,S
+22/04/2022,P0051,Inkosi Albert Luthuli,1,M,27.7,1272 g,Pseudomonas aeruginosa,EONS,S,S,S,Susceptible,S,S
+07/03/2021,P0001,Chris Hani Baragwanath,78d,FEMALE,28.0,1.83 kg,Coagulase-negative Staphylococcus,HAI,R,Resistant,S,S,R,S
+2022-06-05,P0045,Chris Hani Baragwanath,2,1,29.3,1041 g,Staphylococcus aureus,EONS,S,S,S,S,S,S
+16/12/2021,P0069,Inkosi Albert Luthuli,1,1,27.4,"1,787",Escherichia coli,EONS,R,S,S,S,S,S
+05/09/2022,P0015,Chris Hani Baragwanath,2,2,33.7,1316,Pseudomonas aeruginosa,EONS,S,R,R,Susceptible,Susceptible,Susceptible
+08/09/2021,P0118,Baragwanath,1,male,24.0,500 g,Escherichia coli,EONS,R,S,S,S,R,R
+07/08/2022,P0133,tygerberg hospital,2d,MALE,29.1,"1,373",Group B Streptococcus,EONS,I,S,S,i,S,S
+17/03/2022,P0135,Universitas Hospital,1d,MALE,27.1,"1,002",Acinetobacter baumannii,EONS,R,S,Resistant,Resistant,S,S
+2022-05-22,P0043,TYGERBERG,2,M,27.2,"1,289",Klebsiella pneumoniae,EONS,S,i,Resistant,S,I,S
+2021-12-29,P0045,Tygerberg Hosp,2,M,30.0,1.73 kg,Klebsiella pneumoniae,EONS,Resistant,R,S,S,Susceptible,Susceptible
+19/02/2022,P0113,Tygerberg Hospital,94 wks,male,27.7,811,Enterococcus faecalis,HAI,R,S,S,R,S,S
+2022-02-20,P0039,Groote Schuur Hospital,2,2,33.7,1840 g,Staphylococcus aureus,EONS,R,Resistant,R,S,S,S
+2022-06-23,P0138,Tygerberg Hospital,17,1,29.2,1438 g,Coagulase-negative Staphylococcus,HAI,S,S,R,Susceptible,S,Susceptible
+03/05/2022,P0041,Tygerberg Hospital,0 wks,1,30.1,"1,006",Enterococcus faecalis,EONS,Resistant,S,S,Susceptible,I,S
+08/10/2021,P0076,Chris Hani Baragwanath,2d,male,34.9,1975 g,Escherichia coli,EONS,Susceptible,S,S,Susceptible,Resistant,S
+01/09/2021,P0059,Inkosi Albert Luthuli,0,F,33.0,1817,Group B Streptococcus,EONS,R,R,R,S,Susceptible,S
+2022-05-06,P0040,Tygerberg Hospital,90,2,32.4,"1,876",Escherichia coli,HAI,Resistant,S,Resistant,R,S,Susceptible
+2022-08-09,P0050,Tygerberg Hospital,1,M,31.9,"1,548",Group B Streptococcus,EONS,Resistant,Susceptible,S,S,S,S
+06/06/2022,P0128,Tygerberg Hospital,1,F,28.1,1.63 kg,Escherichia coli,EONS,Resistant,S,Susceptible,S,S,S
+04/24/2021,P0140,Groote Schuur,73d,FEMALE,33.1,1797,Acinetobacter baumannii,HAI,S,S,R,S,S,S
+14/01/2022,P0107,Tygerberg Hospital,1,FEMALE,39.4,2.51 kg,Enterococcus faecalis,EONS,I,i,R,Susceptible,Susceptible,R
+09/05/2022,P0080,Chris Hani Baragwanath,10 wks,MALE,31.1,1039,Group B Streptococcus,HAI,R,S,S,Susceptible,S,I
+22/12/2022,P0022,Groote Schuur Hospital,1,2,28.5,955 g,Coagulase-negative Staphylococcus,EONS,R,S,I,S,S,S
+18/12/2022,P0061,Groote Schuur Hospital,15,2,26.7,855,Klebsiella pneumoniae,HAI,R,I,S,R,S,Susceptible
+09/17/2021,P0059,Tygerberg Hospital,0,male,25.3,500 g,Acinetobacter baumannii,EONS,S,R,Susceptible,S,S,S
+27/06/2022,P0105,Tygerberg Hospital,39,MALE,30.8,1393,Klebsiella pneumoniae,HAI,R,I,R,S,Susceptible,S
+04/23/2022,P0004,Chris Hani Baragwanath,45,1,30.1,1159 g,Coagulase-negative Staphylococcus,HAI,R,Susceptible,I,R,Susceptible,S
+27/12/2022,P0052,Chris Hani Baragwanath,44,MALE,35.7,983,Enterococcus faecalis,HAI,R,R,I,S,S,S
+02/15/2022,P0006,Groote Schuur Hospital,60,1,31.7,1977,Pseudomonas aeruginosa,HAI,Resistant,R,R,S,Susceptible,S
+17/03/2022,P0109,IALCH,1,MALE,34.3,2.40 kg,Klebsiella pneumoniae,EONS,S,S,S,S,S,S
+15/10/2021,P0133,Chris Hani Baragwanath,0,2,34.2,2098 g,Escherichia coli,EONS,S,S,S,S,S,S
+2022-09-05,P0020,Chris Hani Baragwanath,0,1,36.2,2236,Coagulase-negative Staphylococcus,EONS,Resistant,I,R,S,Susceptible,S
+2022-08-25,P0086,Tygerberg Hospital,1,MALE,30.9,1555,Coagulase-negative Staphylococcus,EONS,R,S,I,S,S,S
+25/01/2021,P0036,Chris Hani Baragwanath,1,FEMALE,35.4,1291,Coagulase-negative Staphylococcus,EONS,i,I,Resistant,S,Susceptible,S
+03/02/2021,P0121,Chris Hani Baragwanath,2,MALE,33.6,1869,Klebsiella pneumoniae,EONS,S,R,Resistant,Susceptible,R,S
+08/27/2021,P0036,Tygerberg Hospital,8,1,28.3,747,Group B Streptococcus,HAI,R,R,R,S,S,Susceptible
+12/19/2022,P0113,Tygerberg Hosp,17,1,28.4,0.93 kg,Coagulase-negative Staphylococcus,HAI,Resistant,R,S,S,S,S
