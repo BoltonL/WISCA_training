@@ -19,7 +19,7 @@ There are various options, assuming you're in RStudio:
 
 1. Click File > New Project > Version Control > Git > use https://github.com/BoltonL/WISCA_training as the Repository URL
 
-2. Install `usethis` and run its `use_course()` function to set everything up:
+2. Or, install `usethis` and run its `use_course()` function to set everything up:
 
    ```r
    install.packages("usethis")
