@@ -15,11 +15,9 @@ By the end of this webinar, you will be able to:
 
 ## Repository Contents
 
-- `data/` → Synthetic sepsis dataset  
-- `R/` → WISCA function and helper functions  
-- `scripts/` → Step-by-step analysis scripts  
-- `slides/` → Webinar slides  
-- `workbook/` → Participant workbook  
+- `data/` → Synthetic sepsis dataset
+- `scripts/` → Step-by-step analysis scripts
+- `slides/` → Webinar slides
 
 ## Disclaimer
 

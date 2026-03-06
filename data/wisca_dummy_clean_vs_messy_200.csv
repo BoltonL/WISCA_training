@@ -1,0 +1,201 @@
+blood_culture_date;patient_id;hospital_name;age_days;sex;gestational_age_weeks;birthweight_g;pathogen_name;infection_type;susceptibility_meropenem;susceptibility_pip_tazo_plus_amikacin;susceptibility_meropenem_plus_vancomycin
+2022-06-21;P0122;Chris Hani Baragwanath;37;Male;35,4;1880;Coagulase-negative Staphylococcus;HAI;R;S;R
+2021-05-11;P0076;Universitas Hospital;2;Male;31,5;1657;Escherichia coli;EONS;S;S;S
+2021-12-19;P0087;Tygerberg Hospital;42;Male;29,1;1051;Coagulase-negative Staphylococcus;HAI;R;R;S
+2021-07-15;P0117;Inkosi Albert Luthuli;54;Female;30,9;1433;Coagulase-negative Staphylococcus;HAI;S;R;S
+2022-10-28;P0106;Universitas Hospital;18;Female;33,4;2220;Klebsiella pneumoniae;HAI;R;S;S
+2022-01-17;P0086;Tygerberg Hospital;15;Male;30;1258;Staphylococcus aureus;HAI;R;S;S
+2022-10-07;P0027;Inkosi Albert Luthuli;1;Male;29,1;1644;Escherichia coli;EONS;S;S;S
+2021-08-15;P0057;Chris Hani Baragwanath;1;Female;32,9;1413;Staphylococcus aureus;EONS;I;I;S
+2022-12-02;P0031;Universitas Hospital;1;Female;32,9;1993;Escherichia coli;EONS;S;S;S
+2022-04-21;P0134;Chris Hani Baragwanath;21;Male;30,2;1989;Group B Streptococcus;HAI;I;S;S
+2022-04-22;P0098;Chris Hani Baragwanath;19;Male;30,4;643;Klebsiella pneumoniae;HAI;S;S;S
+2021-09-22;P0012;Chris Hani Baragwanath;58;Female;32,8;1517;Candida spp.;HAI;R;R;R
+2022-01-07;P0053;Inkosi Albert Luthuli;2;Female;26,9;1290;Staphylococcus aureus;EONS;R;S;S
+2022-05-01;P0138;Chris Hani Baragwanath;21;Male;27,1;1041;Group B Streptococcus;HAI;S;S;S
+2022-03-10;P0122;Chris Hani Baragwanath;30;Female;29,5;1530;Coagulase-negative Staphylococcus;HAI;S;S;S
+2022-10-08;P0046;Inkosi Albert Luthuli;1;Female;31,3;1405;Acinetobacter baumannii;EONS;S;S;S
+2021-07-30;P0064;Tygerberg Hospital;2;Male;33,1;1862;Enterococcus faecalis;EONS;R;S;S
+2022-07-26;P0130;Tygerberg Hospital;1;Female;37,2;2270;Coagulase-negative Staphylococcus;EONS;S;S;S
+2022-01-12;P0054;Tygerberg Hospital;0;Male;35;2469;Coagulase-negative Staphylococcus;EONS;I;R;S
+2022-01-30;P0107;Groote Schuur Hospital;28;Male;31,4;1717;Coagulase-negative Staphylococcus;HAI;S;R;S
+2022-03-26;P0051;Tygerberg Hospital;55;Female;31,9;1806;Coagulase-negative Staphylococcus;HAI;S;R;S
+2021-12-30;P0036;Universitas Hospital;1;Male;28,5;1136;Klebsiella pneumoniae;EONS;S;R;I
+2022-04-02;P0115;Tygerberg Hospital;2;Female;31,9;1517;Staphylococcus aureus;EONS;S;I;S
+2022-12-26;P0026;Chris Hani Baragwanath;11;Male;31;1429;Coagulase-negative Staphylococcus;HAI;S;S;S
+2022-12-29;P0029;Tygerberg Hospital;0;Male;33,1;1970;Coagulase-negative Staphylococcus;EONS;I;S;S
+2021-08-14;P0011;Inkosi Albert Luthuli;0;Male;29,1;1205;Enterococcus faecalis;EONS;R;S;S
+2021-05-11;P0040;Universitas Hospital;1;Male;33,8;2017;Coagulase-negative Staphylococcus;EONS;S;I;S
+2022-08-11;P0011;Groote Schuur Hospital;1;Male;37,4;3074;Candida spp.;EONS;R;R;R
+2022-04-21;P0113;Inkosi Albert Luthuli;0;Female;31,6;1957;Escherichia coli;EONS;S;S;S
+2021-10-04;P0039;Tygerberg Hospital;2;Female;33,4;1754;Escherichia coli;EONS;R;S;S
+2021-06-05;P0054;Inkosi Albert Luthuli;36;Male;34,4;2408;Staphylococcus aureus;HAI;I;S;R
+2021-08-06;P0098;Tygerberg Hospital;34;Male;30,6;1389;Staphylococcus aureus;HAI;R;R;S
+2021-07-09;P0055;Universitas Hospital;1;Male;32,8;1083;Group B Streptococcus;EONS;S;S;S
+2022-02-21;P0111;Tygerberg Hospital;56;Male;32;1347;Escherichia coli;HAI;S;S;R
+2022-11-06;P0069;Chris Hani Baragwanath;0;Female;32,3;1081;Enterococcus faecalis;EONS;I;S;S
+2022-11-23;P0056;Inkosi Albert Luthuli;42;Male;29,3;1253;Staphylococcus aureus;HAI;R;S;S
+2022-06-30;P0033;Tygerberg Hospital;0;Female;32,1;1718;Coagulase-negative Staphylococcus;EONS;R;S;S
+2021-02-10;P0036;Tygerberg Hospital;55;Female;33,7;2491;Coagulase-negative Staphylococcus;HAI;S;S;S
+2021-11-03;P0081;Tygerberg Hospital;0;Female;37,1;2426;Staphylococcus aureus;EONS;R;I;S
+2021-12-04;P0109;Groote Schuur Hospital;18;Male;35,4;2031;Coagulase-negative Staphylococcus;HAI;S;S;S
+2021-11-10;P0073;Chris Hani Baragwanath;0;Male;39,5;2890;Staphylococcus aureus;EONS;S;S;S
+2021-03-16;P0040;Tygerberg Hospital;2;Female;29,3;602;Klebsiella pneumoniae;EONS;S;S;S
+2021-10-06;P0017;Groote Schuur Hospital;7;Male;35,1;2154;Staphylococcus aureus;HAI;R;S;I
+2021-06-25;P0129;Tygerberg Hospital;1;Male;32,6;2042;Klebsiella pneumoniae;EONS;R;S;I
+2022-10-24;P0061;Inkosi Albert Luthuli;0;Female;39,7;2106;Staphylococcus aureus;EONS;I;I;S
+2021-09-30;P0104;Tygerberg Hospital;2;Female;29,2;1764;Coagulase-negative Staphylococcus;EONS;S;S;S
+2022-09-12;P0042;Groote Schuur Hospital;2;Male;29,1;1470;Coagulase-negative Staphylococcus;EONS;I;R;S
+2022-10-13;P0025;Tygerberg Hospital;14;Male;29,9;1303;Acinetobacter baumannii;HAI;R;S;S
+2021-10-16;P0039;Groote Schuur Hospital;1;Female;24,6;1033;Klebsiella pneumoniae;EONS;R;S;S
+2022-12-25;P0035;Inkosi Albert Luthuli;2;Male;30,2;2279;Coagulase-negative Staphylococcus;EONS;S;S;I
+2021-09-29;P0131;Groote Schuur Hospital;39;Male;29,3;1440;Escherichia coli;HAI;S;R;S
+2021-03-07;P0108;Tygerberg Hospital;1;Female;32,5;1847;Staphylococcus aureus;EONS;S;S;S
+2022-04-28;P0102;Inkosi Albert Luthuli;0;Male;33,2;1683;Group B Streptococcus;EONS;S;I;S
+2021-09-05;P0098;Inkosi Albert Luthuli;0;Female;38,6;2195;Klebsiella pneumoniae;EONS;S;R;R
+2021-06-05;P0012;Tygerberg Hospital;1;Male;35,3;2387;Coagulase-negative Staphylococcus;EONS;R;S;S
+2021-02-16;P0019;Inkosi Albert Luthuli;30;Male;30;1160;Coagulase-negative Staphylococcus;HAI;S;S;S
+2022-03-30;P0101;Universitas Hospital;7;Female;28,9;1353;Staphylococcus aureus;HAI;R;S;S
+2021-07-20;P0044;Tygerberg Hospital;49;Male;33,7;1737;Escherichia coli;HAI;R;I;S
+2022-10-22;P0049;Inkosi Albert Luthuli;51;Female;27,4;1316;Escherichia coli;HAI;I;S;S
+2021-05-04;P0017;Chris Hani Baragwanath;1;Male;38,4;2585;Group B Streptococcus;EONS;S;S;S
+2021-01-01;P0074;Groote Schuur Hospital;48;Female;36,1;2555;Staphylococcus aureus;HAI;I;S;S
+2022-10-02;P0057;Tygerberg Hospital;1;Male;30,4;1329;Escherichia coli;EONS;S;S;S
+2021-07-10;P0055;Tygerberg Hospital;0;Male;26;886;Staphylococcus aureus;EONS;S;S;S
+2022-08-02;P0047;Inkosi Albert Luthuli;1;Male;36,7;1921;Acinetobacter baumannii;EONS;S;R;S
+2022-05-31;P0012;Universitas Hospital;1;Male;31,6;1496;Klebsiella pneumoniae;EONS;S;I;S
+2022-03-18;P0062;Chris Hani Baragwanath;0;Male;36,3;2348;Staphylococcus aureus;EONS;R;S;S
+2021-05-23;P0080;Groote Schuur Hospital;2;Male;26,4;1293;Coagulase-negative Staphylococcus;EONS;S;S;S
+2021-07-10;P0083;Chris Hani Baragwanath;0;Female;29,9;1125;Pseudomonas aeruginosa;EONS;R;I;R
+2022-06-17;P0008;Chris Hani Baragwanath;32;Male;32;2004;Escherichia coli;HAI;S;S;S
+2021-08-15;P0081;Groote Schuur Hospital;0;Female;32,2;2198;Escherichia coli;EONS;S;S;S
+2021-11-09;P0118;Tygerberg Hospital;2;Male;30,4;1653;Staphylococcus aureus;EONS;S;R;S
+2022-09-21;P0025;Inkosi Albert Luthuli;60;Female;34,2;2621;Coagulase-negative Staphylococcus;HAI;S;S;S
+2021-10-29;P0089;Groote Schuur Hospital;12;Female;28,3;985;Escherichia coli;HAI;S;S;S
+2022-10-16;P0012;Inkosi Albert Luthuli;1;Male;31,5;1204;Coagulase-negative Staphylococcus;EONS;I;S;S
+2022-04-05;P0059;Tygerberg Hospital;0;Male;32,4;1125;Enterococcus faecalis;EONS;R;S;S
+2022-02-05;P0109;Tygerberg Hospital;38;Male;33,8;2440;Acinetobacter baumannii;HAI;S;I;S
+2022-07-05;P0026;Tygerberg Hospital;36;Male;34,5;2229;Staphylococcus aureus;HAI;R;S;S
+2022-01-28;P0047;Groote Schuur Hospital;54;Female;28,1;1213;Group B Streptococcus;HAI;S;S;S
+2021-07-26;P0032;Universitas Hospital;33;Male;26,6;1150;Coagulase-negative Staphylococcus;HAI;S;R;S
+2021-07-29;P0010;Tygerberg Hospital;12;Male;36,5;1846;Coagulase-negative Staphylococcus;HAI;I;R;S
+2021-04-25;P0016;Inkosi Albert Luthuli;1;Male;33,2;2700;Klebsiella pneumoniae;EONS;R;S;S
+2022-10-08;P0026;Chris Hani Baragwanath;2;Male;29,4;1433;Candida spp.;EONS;R;R;R
+2021-09-08;P0086;Inkosi Albert Luthuli;60;Male;37,4;2386;Klebsiella pneumoniae;HAI;S;S;R
+2021-08-07;P0135;Groote Schuur Hospital;0;Female;32,4;2002;Escherichia coli;EONS;S;S;S
+2022-02-11;P0014;Inkosi Albert Luthuli;58;Female;36,1;2360;Klebsiella pneumoniae;HAI;S;S;S
+2022-03-19;P0079;Inkosi Albert Luthuli;0;Male;32,2;1802;Coagulase-negative Staphylococcus;EONS;S;R;S
+2022-08-26;P0117;Tygerberg Hospital;0;Female;39,2;2287;Escherichia coli;EONS;I;S;R
+2021-12-20;P0007;Tygerberg Hospital;6;Male;38,1;2597;Klebsiella pneumoniae;HAI;S;S;S
+2022-07-12;P0137;Inkosi Albert Luthuli;2;Female;31,1;2251;Klebsiella pneumoniae;EONS;I;I;R
+2022-07-04;P0115;Universitas Hospital;1;Male;35,4;2579;Klebsiella pneumoniae;EONS;S;S;S
+2021-05-22;P0072;Tygerberg Hospital;51;Male;34,3;2534;Coagulase-negative Staphylococcus;HAI;S;S;R
+2022-09-04;P0059;Chris Hani Baragwanath;30;Female;36,8;2097;Acinetobacter baumannii;HAI;R;R;R
+2022-05-16;P0082;Universitas Hospital;34;Male;28,6;946;Staphylococcus aureus;HAI;S;S;S
+2022-12-03;P0116;Inkosi Albert Luthuli;2;Male;34,4;1944;Staphylococcus aureus;EONS;R;S;S
+2022-07-01;P0103;Universitas Hospital;1;Male;35,7;2164;Acinetobacter baumannii;EONS;S;R;R
+2022-10-21;P0017;Inkosi Albert Luthuli;37;Female;25,8;1339;Klebsiella pneumoniae;HAI;R;S;R
+2022-06-26;P0014;Groote Schuur Hospital;35;Female;27,9;616;Escherichia coli;HAI;S;S;S
+2022-05-22;P0108;Groote Schuur Hospital;35;Male;24,9;1383;Candida spp.;HAI;R;R;R
+2022-08-19;P0045;Groote Schuur Hospital;53;Male;31,1;1537;Coagulase-negative Staphylococcus;HAI;S;R;S
+2021-10-08;P0098;Chris Hani Baragwanath;2;Female;34,5;1851;Escherichia coli;EONS;S;S;S
+2022-02-28;P0131;Chris Hani Baragwanath;39;Male;37,3;1982;Coagulase-negative Staphylococcus;HAI;S;R;S
+2021-09-27;P0037;Tygerberg Hospital;14;Male;32,3;1157;Escherichia coli;HAI;S;S;S
+2021-06-03;P0108;Inkosi Albert Luthuli;2;Female;37,7;2672;Coagulase-negative Staphylococcus;EONS;S;I;S
+2022-09-06;P0039;Chris Hani Baragwanath;3;Female;27,2;1150;Klebsiella pneumoniae;HAI;S;S;S
+2022-12-28;P0015;Chris Hani Baragwanath;35;Male;26;529;Klebsiella pneumoniae;HAI;S;S;R
+2022-10-24;P0120;Groote Schuur Hospital;1;Female;31,8;1223;Klebsiella pneumoniae;EONS;S;S;S
+2021-03-24;P0004;Chris Hani Baragwanath;2;Male;33,3;1738;Pseudomonas aeruginosa;EONS;R;S;S
+2022-09-14;P0093;Tygerberg Hospital;0;Male;31,9;2272;Acinetobacter baumannii;EONS;R;S;I
+2022-03-02;P0016;Tygerberg Hospital;0;Male;24,8;745;Klebsiella pneumoniae;EONS;S;S;R
+2021-10-02;P0108;Tygerberg Hospital;2;Female;31,7;1138;Klebsiella pneumoniae;EONS;I;S;S
+2022-12-14;P0126;Tygerberg Hospital;48;Female;27,4;1062;Acinetobacter baumannii;HAI;S;S;R
+2021-10-11;P0055;Groote Schuur Hospital;4;Male;34,3;1881;Klebsiella pneumoniae;HAI;S;S;S
+2021-06-22;P0034;Chris Hani Baragwanath;0;Female;33,3;912;Escherichia coli;EONS;S;S;S
+2021-11-23;P0013;Tygerberg Hospital;2;Female;28,7;1285;Candida spp.;EONS;R;R;R
+2022-12-19;P0018;Inkosi Albert Luthuli;52;Male;30,2;1403;Escherichia coli;HAI;S;S;S
+2021-03-04;P0096;Groote Schuur Hospital;2;Female;28,3;1500;Acinetobacter baumannii;EONS;R;R;S
+2021-03-14;P0123;Universitas Hospital;2;Male;31,8;2323;Candida spp.;EONS;R;R;R
+2022-09-28;P0039;Universitas Hospital;19;Male;35,3;2490;Staphylococcus aureus;HAI;R;S;S
+2022-01-10;P0046;Tygerberg Hospital;1;Female;28,5;1186;Klebsiella pneumoniae;EONS;S;R;S
+2022-09-25;P0029;Groote Schuur Hospital;0;Male;33,8;1529;Escherichia coli;EONS;I;S;S
+2022-05-23;P0062;Tygerberg Hospital;28;Male;30,1;2373;Group B Streptococcus;HAI;S;S;S
+2022-02-02;P0016;Chris Hani Baragwanath;12;Male;29,2;1385;Group B Streptococcus;HAI;S;S;S
+2021-04-30;P0121;Chris Hani Baragwanath;1;Female;31,6;1657;Enterococcus faecalis;EONS;R;S;S
+2022-03-13;P0010;Tygerberg Hospital;1;Female;28,4;1260;Klebsiella pneumoniae;EONS;S;R;R
+2022-11-07;P0103;Chris Hani Baragwanath;1;Male;30,1;1541;Enterococcus faecalis;EONS;R;S;S
+2022-04-10;P0084;Tygerberg Hospital;2;Male;27,8;1145;Pseudomonas aeruginosa;EONS;R;S;I
+2021-10-13;P0133;Tygerberg Hospital;0;Female;38,9;2327;Coagulase-negative Staphylococcus;EONS;R;S;S
+2021-09-22;P0065;Chris Hani Baragwanath;2;Female;32,1;1521;Pseudomonas aeruginosa;EONS;S;S;S
+2021-11-16;P0003;Groote Schuur Hospital;6;Male;29,6;1401;Group B Streptococcus;HAI;S;S;S
+2022-11-04;P0120;Chris Hani Baragwanath;60;Male;32,7;1594;Acinetobacter baumannii;HAI;R;S;S
+2022-01-11;P0068;Groote Schuur Hospital;55;Female;31,6;1403;Coagulase-negative Staphylococcus;HAI;S;S;S
+2021-03-30;P0037;Universitas Hospital;52;Male;31,2;1641;Escherichia coli;HAI;S;S;S
+2022-10-16;P0073;Tygerberg Hospital;47;Male;34,1;1863;Klebsiella pneumoniae;HAI;S;R;S
+2021-07-22;P0049;Groote Schuur Hospital;13;Female;34,7;2550;Coagulase-negative Staphylococcus;HAI;S;R;S
+2021-11-30;P0121;Chris Hani Baragwanath;31;Male;30,1;544;Escherichia coli;HAI;S;S;S
+2021-08-10;P0088;Groote Schuur Hospital;0;Female;30;1842;Group B Streptococcus;EONS;S;S;S
+2021-02-10;P0140;Universitas Hospital;23;Male;31;2016;Candida spp.;HAI;R;R;R
+2022-12-09;P0037;Chris Hani Baragwanath;59;Male;24;500;Acinetobacter baumannii;HAI;R;S;R
+2021-03-09;P0061;Chris Hani Baragwanath;1;Male;26,7;944;Klebsiella pneumoniae;EONS;S;S;S
+2022-05-29;P0124;Inkosi Albert Luthuli;39;Female;36,8;2146;Escherichia coli;HAI;S;S;S
+2022-09-29;P0039;Universitas Hospital;11;Female;37,8;1903;Klebsiella pneumoniae;HAI;S;R;I
+2022-09-14;P0063;Universitas Hospital;2;Female;31,1;1320;Coagulase-negative Staphylococcus;EONS;R;S;S
+2022-08-21;P0046;Chris Hani Baragwanath;51;Female;34;1551;Enterococcus faecalis;HAI;R;I;S
+2022-09-24;P0088;Chris Hani Baragwanath;37;Male;33,1;2445;Pseudomonas aeruginosa;HAI;I;R;I
+2021-05-07;P0011;Tygerberg Hospital;50;Male;42;3227;Staphylococcus aureus;HAI;R;R;S
+2021-09-12;P0062;Tygerberg Hospital;1;Male;35,9;2613;Pseudomonas aeruginosa;EONS;S;R;S
+2022-11-26;P0077;Chris Hani Baragwanath;0;Male;31,6;1905;Group B Streptococcus;EONS;S;S;S
+2021-01-16;P0052;Tygerberg Hospital;41;Male;28,7;909;Escherichia coli;HAI;S;R;S
+2022-04-22;P0004;Groote Schuur Hospital;2;Male;26,4;844;Group B Streptococcus;EONS;S;S;S
+2021-03-03;P0059;Tygerberg Hospital;34;Male;32,7;1955;Staphylococcus aureus;HAI;S;S;S
+2022-03-08;P0072;Groote Schuur Hospital;0;Female;29,4;960;Escherichia coli;EONS;S;R;S
+2022-11-01;P0093;Inkosi Albert Luthuli;14;Female;27;1350;Coagulase-negative Staphylococcus;HAI;I;S;S
+2021-09-25;P0063;Universitas Hospital;0;Male;29,7;1340;Escherichia coli;EONS;R;S;S
+2021-02-04;P0054;Tygerberg Hospital;57;Male;28,2;1113;Coagulase-negative Staphylococcus;HAI;S;S;S
+2022-07-30;P0117;Chris Hani Baragwanath;15;Male;37,9;2657;Coagulase-negative Staphylococcus;HAI;S;R;S
+2022-05-09;P0110;Inkosi Albert Luthuli;25;Male;35,1;2227;Coagulase-negative Staphylococcus;HAI;S;S;S
+2022-07-16;P0074;Tygerberg Hospital;0;Female;32;1574;Staphylococcus aureus;EONS;S;S;S
+2022-04-14;P0107;Inkosi Albert Luthuli;2;Female;37,2;2730;Coagulase-negative Staphylococcus;EONS;R;R;S
+2022-10-23;P0057;Groote Schuur Hospital;0;Male;32,3;1358;Coagulase-negative Staphylococcus;EONS;S;R;S
+2021-11-21;P0003;Groote Schuur Hospital;32;Male;29;1556;Coagulase-negative Staphylococcus;HAI;S;R;S
+2021-10-31;P0120;Universitas Hospital;19;Female;37,3;2544;Staphylococcus aureus;HAI;R;I;S
+2021-10-03;P0006;Tygerberg Hospital;0;Female;33,9;1820;Klebsiella pneumoniae;EONS;S;R;S
+2022-11-15;P0005;Chris Hani Baragwanath;22;Female;28,4;1382;Coagulase-negative Staphylococcus;HAI;S;R;S
+2021-07-20;P0005;Inkosi Albert Luthuli;50;Female;31,3;1178;Klebsiella pneumoniae;HAI;S;R;S
+2022-03-21;P0054;Tygerberg Hospital;0;Male;28,9;1651;Coagulase-negative Staphylococcus;EONS;R;R;S
+2021-11-20;P0047;Chris Hani Baragwanath;1;Male;27,2;1059;Acinetobacter baumannii;EONS;I;R;S
+2021-02-04;P0009;Universitas Hospital;15;Male;35,2;1901;Coagulase-negative Staphylococcus;HAI;R;S;S
+2022-04-27;P0099;Tygerberg Hospital;21;Male;38,7;2871;Coagulase-negative Staphylococcus;HAI;S;R;I
+2022-12-29;P0020;Inkosi Albert Luthuli;0;Female;27,1;865;Pseudomonas aeruginosa;EONS;S;S;I
+2022-04-25;P0122;Chris Hani Baragwanath;0;Male;34;1447;Group B Streptococcus;EONS;S;S;S
+2021-03-06;P0061;Chris Hani Baragwanath;43;Male;29,7;879;Pseudomonas aeruginosa;HAI;S;R;S
+2021-01-08;P0123;Chris Hani Baragwanath;21;Male;30,3;1708;Enterococcus faecalis;HAI;I;I;S
+2021-10-28;P0082;Groote Schuur Hospital;0;Male;29,9;1000;Klebsiella pneumoniae;EONS;S;I;S
+2021-12-09;P0062;Universitas Hospital;9;Male;29;1954;Klebsiella pneumoniae;HAI;R;S;S
+2022-03-07;P0003;Universitas Hospital;30;Female;32,2;995;Coagulase-negative Staphylococcus;HAI;R;S;S
+2022-02-28;P0013;Chris Hani Baragwanath;16;Female;29,1;1946;Escherichia coli;HAI;I;S;S
+2021-11-28;P0120;Inkosi Albert Luthuli;2;Female;32,9;1882;Staphylococcus aureus;EONS;S;R;S
+2022-03-14;P0125;Chris Hani Baragwanath;2;Male;31,8;1642;Staphylococcus aureus;EONS;S;R;S
+2022-08-11;P0089;Groote Schuur Hospital;1;Female;31,2;1413;Coagulase-negative Staphylococcus;EONS;S;S;S
+2021-06-23;P0073;Chris Hani Baragwanath;49;Female;28,8;1456;Acinetobacter baumannii;HAI;R;R;R
+2022-07-13;P0068;Chris Hani Baragwanath;0;Male;30;1447;Acinetobacter baumannii;EONS;S;S;R
+2022-06-11;P0101;Chris Hani Baragwanath;7;Male;34,6;2398;Coagulase-negative Staphylococcus;HAI;S;S;I
+2022-10-21;P0098;Inkosi Albert Luthuli;37;Female;33,8;1956;Group B Streptococcus;HAI;S;S;S
+2021-01-26;P0011;Groote Schuur Hospital;0;Female;28,6;1345;Staphylococcus aureus;EONS;I;S;S
+2022-08-28;P0105;Tygerberg Hospital;54;Female;32,3;1609;Group B Streptococcus;HAI;S;S;S
+2022-02-10;P0067;Tygerberg Hospital;2;Male;34,6;1992;Klebsiella pneumoniae;EONS;S;S;S
+2021-08-20;P0123;Groote Schuur Hospital;0;Male;26,2;1112;Pseudomonas aeruginosa;EONS;S;S;S
+2022-06-17;P0029;Chris Hani Baragwanath;0;Male;33,9;1329;Coagulase-negative Staphylococcus;EONS;S;S;S
+2022-07-04;P0137;Chris Hani Baragwanath;25;Male;29,7;952;Staphylococcus aureus;HAI;R;S;S
+2022-05-20;P0076;Chris Hani Baragwanath;18;Male;34;2200;Klebsiella pneumoniae;HAI;S;S;R
+2022-10-31;P0009;Groote Schuur Hospital;59;Female;29,3;1436;Staphylococcus aureus;HAI;I;S;S
+2021-06-28;P0040;Chris Hani Baragwanath;41;Female;25,7;880;Klebsiella pneumoniae;HAI;S;I;S
+2021-05-12;P0025;Groote Schuur Hospital;0;Male;26,3;1022;Klebsiella pneumoniae;EONS;R;S;S
+2022-03-31;P0005;Groote Schuur Hospital;55;Female;32,2;1846;Coagulase-negative Staphylococcus;HAI;I;S;S
+2021-12-14;P0139;Chris Hani Baragwanath;44;Male;32,9;1619;Coagulase-negative Staphylococcus;HAI;R;R;S
+2022-06-24;P0124;Inkosi Albert Luthuli;60;Male;28,8;1044;Acinetobacter baumannii;HAI;R;R;R
+2022-02-10;P0038;Groote Schuur Hospital;2;Male;34,2;2033;Pseudomonas aeruginosa;EONS;S;I;S
+2021-03-17;P0072;Tygerberg Hospital;16;Male;26,2;662;Coagulase-negative Staphylococcus;HAI;R;S;S
+2022-08-02;P0133;Tygerberg Hospital;33;Female;31,8;1819;Coagulase-negative Staphylococcus;HAI;R;S;R
+2022-05-07;P0090;Tygerberg Hospital;60;Male;27,8;600;Klebsiella pneumoniae;HAI;R;I;S
