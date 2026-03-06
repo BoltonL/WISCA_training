@@ -13,6 +13,19 @@ By the end of this webinar, you will be able to:
 - Interpret coverage probabilities and confidence intervals  
 - Apply findings to empiric antibiotic decision-making  
 
+## Set Up the Environment
+
+There are various options, assuming you're in RStudio:
+
+A. A. Click File > New Project > Version Control > Git > use https://github.com/BoltonL/WISCA_training as the Repository URL
+
+B. Install `usethis` and run its `use_course()` function to set everything up:
+
+   ```r
+   install.packages("usethis")
+   usethis::use_course("https://github.com/BoltonL/WISCA_training")
+   ```
+
 ## Repository Contents
 
 - `data/` → Synthetic sepsis dataset

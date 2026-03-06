@@ -7,7 +7,7 @@ library(AMR)
 # HAVEN'T SET UP THE ENVIROMENT YET?
 # There are various options, assuming you're now in RStudio:
 #
-# A. Click File > New Project > Git > use https://github.com/BoltonL/WISCA_training as the address
+# A. Click File > New Project > Version Control > Git > use https://github.com/BoltonL/WISCA_training as the Repository URL
 #
 # B. Install `usethis` and run its `use_course()` function to set everything up:
 #      - install.packages("usethis")
