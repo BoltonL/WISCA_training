@@ -17,9 +17,9 @@ By the end of this webinar, you will be able to:
 
 There are various options, assuming you're in RStudio:
 
-A. A. Click File > New Project > Version Control > Git > use https://github.com/BoltonL/WISCA_training as the Repository URL
+1. Click File > New Project > Version Control > Git > use https://github.com/BoltonL/WISCA_training as the Repository URL
 
-B. Install `usethis` and run its `use_course()` function to set everything up:
+2. Install `usethis` and run its `use_course()` function to set everything up:
 
    ```r
    install.packages("usethis")
