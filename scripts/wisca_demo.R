@@ -20,7 +20,7 @@ library(lubridate)
 
 ##PREPROCESSING
 data_dir <- "./Data"
-data_name <- "wisca_clean_age_onset.csv"
+data_name <- "wisca_dummy_clean.csv"
 data_raw <- read.csv(file = file.path(data_dir,data_name), na.strings = c("NA","NULL",".",""))
 
 #let's see how the variables look?
@@ -42,7 +42,7 @@ deduped <- "no" #is your dataset deduplicated for first isolates
 susceptible_I_in <- "S" #how would you like to code intermediate susceptibility
 include_pathogens <- 10
 
-source("./Code/wisca_preprocess_amr.R")  #script to run preprocessing
+source("./Scripts/wisca_preprocess_amr.R")  #script to run preprocessing
 
 data_wisca_demo <- wisca_preprocess(x = data_in,
                                    antibiotic_in = antibiotic_in_demo,
@@ -59,10 +59,10 @@ data_wisca_in_demo <- data_wisca_demo[[2]]
 
 ##RUNNING WISCA
 wisca_cover_demo <- data_wisca_in_demo %>%
-  group_by(INFECTION_TYPE) %>%
+  #group_by(INFECTION_TYPE) %>%
   wisca(#x = data_wisca_in,
     antimicrobials = antibiotic_wisca_demo,
-    col_mo = "mo",
+    col_mo = "mo", syndromic_group = "INFECTION_TYPE",
     ab_transform = NULL)
 
 params_wisca_hai <- retrieve_wisca_parameters(wisca_cover_demo)
