@@ -16,7 +16,7 @@ library(AMR)
 
 # Import data -------------------------------------------------------------
 
-clean <- read_csv("data/data_wisca_in_demo.csv")
+clean <- read_csv("data/wisca_dummy_clean.csv")
 
 # review the data
 glimpse(clean)
@@ -28,10 +28,10 @@ View(clean)
 clean <- clean |>
   mutate(
     # let's make sure the SIR columns have the 'sir' data type
-    across(c(MEM:`MEM+VAN`),
+    across(c(ampicillin:vancomycin),
            as.sir),
     # let's make 'mo' get the right class
-    mo = as.mo(mo)
+    mo = as.mo(pathogen_name)
   )
 
 # review
@@ -40,13 +40,11 @@ clean
 
 # Familiarise with data set -----------------------------------------------
 
-clean |> count(SEX) |> mutate(p = n / sum(n))
+clean |> count(hospital_name) |> mutate(p = n / sum(n))
 
-clean |> count(INFECTION_TYPE) |> mutate(p = n / sum(n))
+clean |> count(infection_type) |> mutate(p = n / sum(n))
 
-clean |> count(hospital) |> mutate(p = n / sum(n))
-
-hist(clean$AGE_AT_ONSET)
+hist(clean$age_at_onset)
 
 clean |> count(mo, sort = TRUE) |> mutate(p = n / sum(n))
 
@@ -54,15 +52,16 @@ clean |> count(mo, sort = TRUE) |> mutate(p = n / sum(n))
 # Run WISCA model ---------------------------------------------------------
 
 # now we have various ways:
-clean |> wisca(antimicrobials = c("AMX", "AMC", "CIP"))
-clean |> wisca(antimicrobials = c("AMX", "AMX + CIP", "AMX + GEN"))
+clean |> wisca(antimicrobials = c("ampicillin", "piperacillin_tazobactam", "meropenem"))
+clean |> wisca(antimicrobials = c("ampicillin", "ampicillin + meropenem", "vancomycin + meropenem"))
 clean |> wisca(antimicrobials = aminopenicillins())
-clean |> wisca(antimicrobials = aminopenicillins() + "GEN")
-clean |> wisca(antimicrobials = aminopenicillins() + c("", "CIP", "GEN"))
+clean |> wisca(antimicrobials = aminopenicillins() + "gentamicin")
+clean |> wisca(antimicrobials = aminopenicillins() + c("", "amikacin", "gentamicin"))
 
 # let's go with this first:
-wisca_outcome <- cleaned |>
-  wisca(antimicrobials = c("AMX", "CIP", "GEN"))
+wisca_outcome <- clean |>
+  wisca(antimicrobials = c("ampicillin", "piperacillin_tazobactam", "meropenem"),
+        simulations = 100)
 
 ### Plot the results ----
 
