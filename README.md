@@ -29,7 +29,10 @@ There are various options, assuming you're in RStudio:
 ## Repository Contents
 
 - `data/` → Synthetic sepsis dataset
-- `scripts/` → Step-by-step analysis scripts
+- `scripts/` → Step-by-step analysis scripts, containing:
+  - WISCA live coding file
+  - WISCA teaching file with assignments
+  - WISCA solution file with teaching solutions
 - `output/` → Files generated from the code: plots and Excel files
 - `slides/` → Webinar slides and recording (will be available after the webinar)
 

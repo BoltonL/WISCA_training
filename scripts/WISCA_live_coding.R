@@ -7,6 +7,8 @@
 #
 # The script is intentionally heavily annotated so that participants can
 # reproduce the analysis at home after the webinar.
+#
+# Larisse Bolton, Aislinn Cook, Matthijs Berends
 ###############################################################################
 
 # Load required packages ------------------------------------------------------
@@ -200,6 +202,8 @@ wisca_outcome <- clean |>
     simulations = 100
   )
 
+wisca_outcome
+
 
 # Stratified WISCA model ------------------------------------------------------
 
@@ -218,6 +222,8 @@ wisca_outcome2 <- clean |>
     simulations = 100,
     syndromic_group = "infection_type"
   )
+
+wisca_outcome2
 
 
 # Plot the results ------------------------------------------------------------
