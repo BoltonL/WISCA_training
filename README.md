@@ -30,7 +30,8 @@ There are various options, assuming you're in RStudio:
 
 - `data/` → Synthetic sepsis dataset
 - `scripts/` → Step-by-step analysis scripts
-- `slides/` → Webinar slides
+- `output/` → Files generated from the code: plots and Excel files
+- `slides/` → Webinar slides and recording (will be available after the webinar)
 
 ## Disclaimer
 
