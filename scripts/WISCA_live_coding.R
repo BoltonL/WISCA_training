@@ -4,6 +4,7 @@
 #
 # This script demonstrates how to calculate empiric antimicrobial coverage
 # using the `wisca()` function from the AMR package.
+# See https://amr-for-r.org/articles/WISCA.html for more info about WISCA.
 #
 # The script is intentionally heavily annotated so that participants can
 # reproduce the analysis at home after the webinar.
@@ -300,7 +301,29 @@ wisca_advanced_inggris <- clean |>
     conf_interval = 0.99,
 
     # Number of simulations
-    simulations = 100
+    simulations = 100,
+
+    # Interpretation of S/I/R depends on the guideline used.
+    #
+    # EUCAST:
+    #   S = Susceptible (standard dosing)
+    #   I = Susceptible, increased exposure
+    #   R = Resistant
+    #
+    # Therefore EUCAST considers both S and I as clinically treatable.
+    #
+    # Setting combine_SI = TRUE means:
+    #   both S and I will be counted as susceptible when estimating
+    #   empirical treatment coverage (EUCAST-style interpretation).
+    #
+    # CLSI:
+    #   S = Susceptible
+    #   I = Intermediate
+    #   R = Resistant
+    #
+    # CLSI traditionally treats I more cautiously, so analyses sometimes
+    # only count S as susceptible. Set combine = FALSE if using CLSI.
+    combine_SI = TRUE
   )
 
 wisca_advanced_inggris
