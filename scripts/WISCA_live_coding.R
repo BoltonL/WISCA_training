@@ -63,15 +63,27 @@ wisca_outcome <- clean |>
   wisca(antimicrobials = c("ampicillin", "piperacillin_tazobactam", "meropenem"),
         simulations = 100)
 
+wisca_outcome2 <- clean |>
+  wisca(antimicrobials = c("ampicillin", "piperacillin_tazobactam", "meropenem"),
+        simulations = 100,
+        syndromic_group = "infection_type")
+
 ### Plot the results ----
 
 plot(wisca_outcome)     # base R
 autoplot(wisca_outcome) # ggplot2
 
+plot(wisca_outcome2)
+autoplot(wisca_outcome2)
+
 ### Advanced options ----
 
-wisca_advanced <- cleaned |>
-  wisca(antimicrobials = c("AMX", "AMX + CIP", "AMX + GEN"),
+wisca_advanced <- clean |>
+  wisca(antimicrobials = c("AMP", "TZP", "AMP + GEN", "VAN", "VAN + mero"),
+        simulations = 100)
+
+wisca_advanced <- clean |>
+  wisca(antimicrobials = c("AMX", "pip/tazo", "AMX + GEN", "VAN", "VAN + mero"),
         language = "Indonesian", # instead of English
         conf_interval = 0.99,    # instead of 0.95
         simulations = 250        # instead of 1000
