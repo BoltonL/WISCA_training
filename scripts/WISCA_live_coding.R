@@ -79,8 +79,23 @@ autoplot(wisca_outcome2)
 ### Advanced options ----
 
 wisca_advanced <- clean |>
-  wisca(antimicrobials = c("AMP", "TZP", "AMP + GEN", "VAN", "VAN + mero"),
+  wisca(antimicrobials = c("AMP", "AMP + genta", "TZP", "TZP + AMK", "VAN", "VAN + mero"),
         simulations = 100)
+
+wisca_advanced
+autoplot(wisca_advanced)
+
+wisca_advanced_stratied <- clean |>
+  wisca(antimicrobials = c("AMP", "AMP + genta", "TZP", "TZP + AMK", "VAN", "VAN + mero"),
+        syndromic_group = "infection_type",
+        simulations = 100)
+
+wisca_advanced_stratied
+autoplot(wisca_advanced_stratied)
+
+# export to Excel
+attributes(wisca_advanced_stratied)$long_numeric |> writexl::write_xlsx("combinations_stratified.xlsx")
+
 
 wisca_advanced <- clean |>
   wisca(antimicrobials = c("AMX", "pip/tazo", "AMX + GEN", "VAN", "VAN + mero"),
@@ -88,4 +103,12 @@ wisca_advanced <- clean |>
         conf_interval = 0.99,    # instead of 0.95
         simulations = 250        # instead of 1000
   )
+
+### Getting additional info from WISCA ----
+
+wisca_advanced_stratied
+
+attributes(wisca_advanced_stratied)
+
+
 
