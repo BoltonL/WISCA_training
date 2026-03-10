@@ -22,8 +22,8 @@ There are various options, assuming you're in RStudio:
 2. Or, install `usethis` and run its `use_course()` function to set everything up:
 
    ```r
-   install.packages("usethis")
-   usethis::use_course("https://github.com/BoltonL/WISCA_training")
+   if (!"usethis" %in% rownames(installed.packages())) install.packages("usethis")
+   usethis::use_course("https://github.com/BoltonL/WISCA_training/archive/refs/heads/main.zip")
    ```
 
 ## Repository Contents
