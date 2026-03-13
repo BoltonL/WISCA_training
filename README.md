@@ -1,5 +1,5 @@
 # From Data to Decision: Applying WISCA in Sepsis Using R
-## Authors: Larisse Bolton, Matthijs Barends, Aislinn Cook  
+## Authors: Larisse Bolton, Matthijs Berends, Aislinn Cook  
 
 Welcome! This repository contains all materials for the live training.  This training introduces the **Weighted Incidence Syndromic Combination Antibiogram (WISCA)** approach and demonstrates how to prepare data, run the WISCA function, and interpret outputs in R.
 
