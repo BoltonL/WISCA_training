@@ -318,38 +318,48 @@ wisca_preprocess <- function(x, antibiotic_in,pathogen_in, exclude, susceptible_
 
 
   #recode susceptibility of regimes if not already in the dataset: if any S, then all S; if any NA and not S, then combination NA; if all R, then combination R.
-  if (any(duplicated(names(test_isolates_first_upd)))){
-    test_isolates_temp3 <- test_isolates_upd %>%
-      mutate(antibiogram = as.character(antibiogram)) %>%
-      mutate(antibiogram = replace_na(antibiogram,"U")) %>%
-      mutate(combiantibiogram = "A")
-    test_isolates_temp4 <- test_isolates_temp3 %>%
-      group_by(date,patient,mo,keyantimicrobials) %>%
-      mutate(combiantibiogram = ifelse(any(str_detect(antibiogram,"S")), "S",combiantibiogram)) %>%
-      mutate(combiantibiogram = ifelse(any(str_detect(antibiogram,"U")) & !any(str_detect(antibiogram,"S")), "U",combiantibiogram)) %>%
-      mutate(combiantibiogram = ifelse(!any(str_detect(antibiogram,"U")) & !any(str_detect(antibiogram,"S")), "R", combiantibiogram)) %>%
-      distinct(date,patient,mo,.keep_all = TRUE) %>%
-      ungroup() %>%
-      select(-antibiogram) %>%
-      rename("antibiogram" = "combiantibiogram") %>%
-      mutate(antibiogram = ifelse(antibiogram == "U",NA_character_, antibiogram)) %>%
-      mutate(antibiogram = as.factor(antibiogram))
-
-    test_isolates_temp5 <- test_isolates_upd %>% #isolate the single regimens
-      group_by(date,patient,mo) %>%
-      filter(!str_detect(keyantimicrobials,fixed("+"))) %>%
-      ungroup()
-
-    test_isolates_final <- bind_rows(test_isolates_temp4,test_isolates_temp5)
-    test_isolates_final <- test_isolates_final %>%
-      arrange(patient)
-
-  } else {
-    test_isolates_final <- test_isolates_first_upd
+  recode_susceptibility <- function(yy){
+    if (nrow(yy)> 1){
+      yy %>%
+        mutate(combiantibiogram = ifelse(any(str_detect(antibiogram,"S")), "S",combiantibiogram)) %>%
+        mutate(combiantibiogram = ifelse(any(str_detect(antibiogram,"U")) & !any(str_detect(antibiogram,"S")), NA_character_,combiantibiogram)) %>%
+        mutate(combiantibiogram = ifelse(!any(str_detect(antibiogram,"U")) & !any(str_detect(antibiogram,"S")), "R", combiantibiogram))
+    } else {
+      yy %>%
+        mutate(combiantibiogram = antibiogram) %>%
+        mutate(combiantibiogram = ifelse(combiantibiogram == "U",NA_character_,combiantibiogram))
+    }
   }
+
+  test_isolates_temp3 <- test_isolates_first_upd %>%
+    mutate(antibiogram = as.character(antibiogram)) %>%
+    mutate(antibiogram = replace_na(antibiogram,"U")) %>%
+    mutate(combiantibiogram = ifelse(antibiogram == "U",NA_character_,"A"))
+  test_isolates_temp4 <- test_isolates_temp3 %>%
+    group_by(date,patient,mo,keyantimicrobials) %>%
+    do(recode_susceptibility(.)) %>%
+    distinct(date,patient,mo,.keep_all = TRUE) %>%
+    ungroup() %>%
+    select(-antibiogram) %>%
+    rename("antibiogram" = "combiantibiogram") %>%
+    mutate(antibiogram = as.factor(antibiogram))
+
+  # test_isolates_temp5 <- test_isolates_first_upd %>% #isolate the single regimens
+  #   group_by(date,patient,mo) %>%
+  #   filter(!str_detect(keyantimicrobials,fixed("+"))) %>%
+  #   ungroup()
+
+  #test_isolates_final <- bind_rows(test_isolates_temp4,test_isolates_temp5)
+  test_isolates_final <- test_isolates_temp4 %>% #test_isolates_final %>%
+    arrange(patient)
+
+  # } else {
+  #   test_isolates_final <- test_isolates_first_upd
+  # }
 
   test_isolates_final$fullname <- as.factor(test_isolates_final$fullname)
   test_isolates_final$date <- ymd(test_isolates_final$date)
+
 
   #Calculate pathogen incidence and susceptible by regimen
   mo_name_total <- test_isolates_final %>% #deduplicate pathogen list
