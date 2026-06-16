@@ -1,5 +1,5 @@
 # From Data to Decision: Applying WISCA in Sepsis Using R
-## Authors: Larisse Bolton, Matthijs Barends, Aislinn Cook  
+## Authors: Larisse Bolton, Matthijs Berends, Aislinn Cook  
 
 Welcome! This repository contains all materials for the live training.  This training introduces the **Weighted Incidence Syndromic Combination Antibiogram (WISCA)** approach and demonstrates how to prepare data, run the WISCA function, and interpret outputs in R.
 
@@ -22,8 +22,8 @@ There are various options, assuming you're in RStudio:
 2. Or, install `usethis` and run its `use_course()` function to set everything up:
 
    ```r
-   install.packages("usethis")
-   usethis::use_course("https://github.com/BoltonL/WISCA_training")
+   if (!"usethis" %in% rownames(installed.packages())) install.packages("usethis")
+   usethis::use_course("https://github.com/BoltonL/WISCA_training/archive/refs/heads/main.zip")
    ```
 
 ## Repository Contents
